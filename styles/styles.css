@@ -1,0 +1,125 @@
+*{
+	font-size: 16px;
+}
+strong{
+	text-decoration: underline;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://ese224.seas.upenn.edu/wp-content/uploads/2018/11/background-website-light-blue-wallpapers-background-2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+body center span{
+	color:white;
+	font-size: 130%;
+}
+#content{
+	padding: 10px 10px 20px 20px;
+	margin-top: 10px;
+}
+#header .custom-navbar{
+	background-color: blue;
+	height:70px;
+	font-size: 20px;
+	color:red;
+}
+button,.navbar-toggler-icon{
+}
+#content div h1{
+	color:white;
+	border-bottom: 2px solid red;
+}
+#content img{
+	border: 5px solid red;
+	border-radius: 150px;
+	background-color: white;
+}
+img{
+	padding:30px 30px 30px 30px;
+}
+#content .row{
+	clear:both;
+	color:white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: left;
+  border-radius: 50%;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background-color:#3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background-color:#007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background-color: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background-color: #125688;
+  color: white;
+}
+.fa-github{
+  background-color: black;
+  color: white;
+}
+.fa-phone{
+	background-color: white;
+    color: blue;
+}
+#footer{
+	height: 110%;
+}
+@media(min-width:1200px){	
+#content .ll{
+	text-align: right
+	color:white;
+	margin-top: 120px;
+	text-align: right;
+	display: inline-grid;
+	float:right;
+}
+}
+@media(min-width:992px) and (max-width:1199px){
+#content .ll{
+	text-align: right
+	color:white;
+	margin-top: 120px;
+	text-align: right;
+	display: inline-grid;
+	float:right;
+}
+} 
+@media(min-width:768px) and (max-width:991px){
+	#content .ll{
+	color:white;
+	margin-top: 120px;
+	text-align: right;
+	display: inline-grid;
+	float:right;
+}
+
+}
+@media(max-width:767px){
+	#content .ll{
+	font-size: 300%;
+	text-align: left;
+	color:white;
+	margin-top: 120px;
+	text-align: right;
+	display: inline-grid;
+	clear: left;
+}
+}
